@@ -80,7 +80,7 @@ See prompt <a href="https://github.com/Daniel-Carbajal/se333-assignment5-Part-2/
 <p>AI-generated tests can accelerate initial development but a lot of the selectors and patterns seem much more complex. Hence they were harder to understand and likely harder to maintain as a result. Human oversight is still necessary to ensure maintainability.</p>
 
 <h2>Limitations and Issues</h2>
-<p>I encountered two main issues during development during both the manual and AI-assisted testing. Firstly, Playwright strict mode errors occured because selectors would match multiple elements on the page. Secondly, sometimes there were hidden duplicate elements in the DOM.</p>
+<p>I encountered two main issues during development during both the manual and AI-assisted testing. Firstly, Playwright strict mode errors occured because selectors would match multiple elements on the page. Secondly, sometimes there were hidden duplicate elements in the DOM. I also realized that the videos recorded by the AI-assisted did not go through the entire workflow, despite the actual test reflecting the entire workflow and successful compilation and passing tests. </p>
 <p>Despite these issues, I think the MCP agent was still very helpful for generating initial test structure quickly, especially if you have larger tests to scale. Manual refinement was still required, but mainly when prompts are not clear.</p>
 <p>With clear requirements for testing workflows expressed in the prompt, it seems possible to reduce the need for majority of the manual refinement done.</p>
 
